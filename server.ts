@@ -13,6 +13,6 @@ const server = createServer((socket: Socket) => {
     });
 });
 
-server.listen(3000, () => {
-    console.log('TCP server started on port 3000.');
+server.listen(80, () => {
+    console.log('TCP server started on port 80.');
 });
