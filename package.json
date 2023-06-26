@@ -1,5 +1,16 @@
 {
-  "name": "teltonika-comm-server-test",
+  "name": "teltonika-communication-server-test",
   "version": "1.0.0",
-  "dependencies": {}
+  "description": "Node.js TCP server example",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.4",
+    "@types/node": "^20.3.1"
+  }
 }

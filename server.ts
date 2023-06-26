@@ -1,6 +1,6 @@
-const net = require('net');
+import { createServer, Socket } from 'net';
 
-const server = net.createServer((socket) => {
+const server = createServer((socket: Socket) => {
     console.log('Client connected.');
 
     socket.on('data', (data) => {
